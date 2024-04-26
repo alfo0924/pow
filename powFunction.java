@@ -71,7 +71,7 @@ public class powFunction
 //        int pow1=(int)e1;
 
 //        System.out.println(a2+"的"+b2+"次方是"+pow1);
-        System.out.println(a2+"的"+b2+"次方是"+e1);
+        System.out.println(a2+"的"+b2+"次方是 : "+e1);
 
 
 
