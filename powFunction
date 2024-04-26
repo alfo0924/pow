@@ -1,0 +1,99 @@
+package org.example;
+
+
+public class powFunction
+{
+
+
+    public static void main(String[]args)
+    {
+        java.util.Scanner scanner =new java.util.Scanner(System.in);
+
+        System.out.println("請輸入2個數字Type in two numbers :");
+
+        int e;
+
+
+        int a= scanner.nextInt();
+        int b= scanner.nextInt();
+
+        int result = 1;
+
+        //用for迴圈
+        for (int i = 0; i < b; i++) {
+            result *= a;
+        }
+
+        System.out.println(a + " 的 " + b + " 次方是: " + result+"\n");
+
+
+
+//        int k=5;
+//        int o=5;
+//        long re=1;
+//        for(int i=0; i<5;i++)
+//        {
+//            re*=k;
+//
+//        }
+//        System.out.println("\n"+re);
+
+
+        System.out.println("\n使用do/while算次方數\n請輸入2個數字Type in two numbers :");
+        int a1 = scanner.nextInt();
+        int b1 = scanner.nextInt();
+        int result1=1;
+        int i=0;
+
+        do
+        {
+            result1*=a1;
+            i++;
+
+        }
+        while(i<b1);
+        System.out.println(a+"的"+b1+"次方數為"+result1);
+
+
+
+        //使用Math.pow()來算次方數
+        System.out.println("\n使用Math.pow()算次方數\n請輸入2個數字Type in two numbers :");
+
+
+//        int a2=scanner.nextInt();
+//        int b2=scanner.nextInt();
+
+
+        double a2=scanner.nextDouble();
+        double b2=scanner.nextDouble();
+
+
+        double e1=Math.pow(a2,b2);
+
+
+        //Math.pow() 限定使用double 是因為假設次方數是小數點,得到得結果會是有小數點
+        // 要注意若要得到小數點輸入的資料型態需要是double不可用int
+
+
+        // pow1 的值為 double轉int後的資料型態
+//        int pow1=(int)e1;
+
+//        System.out.println(a2+"的"+b2+"次方是"+pow1);
+        System.out.println(a2+"的"+b2+"次方是"+e1);
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+}
