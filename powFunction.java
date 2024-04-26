@@ -9,7 +9,7 @@ public class powFunction
     {
         java.util.Scanner scanner =new java.util.Scanner(System.in);
 
-        System.out.println("請輸入2個數字Type in two numbers :");
+        System.out.println("\n利用for迴圈算次方數\n請輸入2個數字Type in two numbers :");
 
         int e;
 
@@ -28,15 +28,7 @@ public class powFunction
 
 
 
-//        int k=5;
-//        int o=5;
-//        long re=1;
-//        for(int i=0; i<5;i++)
-//        {
-//            re*=k;
-//
-//        }
-//        System.out.println("\n"+re);
+
 
 
         System.out.println("\n使用do/while算次方數\n請輸入2個數字Type in two numbers :");
