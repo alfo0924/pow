@@ -30,13 +30,13 @@ public class powFunction
 
 
 
-
+        
         System.out.println("\n使用do/while算次方數\n請輸入2個數字Type in two numbers :");
         int a1 = scanner.nextInt();
         int b1 = scanner.nextInt();
         int result1=1;
         int i=0;
-
+        //用Do/While 
         do
         {
             result1*=a1;
